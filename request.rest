@@ -1,0 +1,20 @@
+GET http://localhost:3000/api/Employee
+Content-Type: application/json
+
+###
+POST http://localhost:3000/api/Employee
+Content-Type: application/json
+
+{
+    "first_name": "jhon-test3",
+    "last_name": "bd-type3",
+    "is_active": true,
+    "date_of_birth":"2021-01-15T18:00:00.000Z"
+}
+###
+DELETE http://localhost:3000/api/Employee
+Content-Type: application/json
+
+###
+GET  http://localhost:3000/api/Employee/5
+Content-Type: application/json
